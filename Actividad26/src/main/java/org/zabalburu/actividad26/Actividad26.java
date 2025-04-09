@@ -5,6 +5,7 @@
 package org.zabalburu.actividad26;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
@@ -41,6 +42,8 @@ public class Actividad26 extends JFrame {
         
         this.setSize(dnVentana);
         this.setTitle("Mi Perfil");
+        lblTitulo.setOpaque(true);
+        lblTitulo.setBackground(Color.red);
         this.add(lblTitulo, BorderLayout.NORTH);
          
         pnlDatos.add(lblNombre);
